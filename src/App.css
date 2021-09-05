@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+form,fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+input, fieldset { width: 25%; vertical-align: bottom;}
+
+/*header { position:fixed; } */
